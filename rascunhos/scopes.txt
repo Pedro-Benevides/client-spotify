@@ -1,8 +1,0 @@
-Scopes para autorização:
-streaming - tocar algo
-user-read-email - perfil do usuario
-user-read-private- pesquisar por algo/perfil do usuario
-user-library-read - acesso a conteudo salvo
-user-library-modify - controlar conteudo salvo
-user-read-playback-state - acesso ao estado atual do player
-user-modify-playback-state - controle sob estado do player
