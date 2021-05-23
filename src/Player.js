@@ -1,4 +1,4 @@
-{/*import React from 'react';
+import React from 'react';
 import SpotifyPlayer from 'react-spotify-web-playback'
 
 export default function Player({tokenAcesso, faixaUri}){
@@ -6,4 +6,4 @@ export default function Player({tokenAcesso, faixaUri}){
     return (
         <SpotifyPlayer token={tokenAcesso} showSaveIcon uris={faixaUri?[faixaUri]:[]}/>
     )
-}*/}
+}
