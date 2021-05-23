@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, CardColumns, CardDeck, CardGroup, Col, Container, ListGroup, OverlayTrigger, Popover, Row } from 'react-bootstrap';
+import {  Card, Container, ListGroup, OverlayTrigger, Popover } from 'react-bootstrap';
 
 export default function ResultadosAlbum ({album}){
     
@@ -20,13 +20,13 @@ export default function ResultadosAlbum ({album}){
 
     const popover=(
         <Popover>
-            <Container className="d-flex flex-column " style={{ height: "380px" }}>
+            <Container className="d-flex flex-column " style={{ height: "380px"}}>
                 <Popover.Title as="h3">Neste álbum:</Popover.Title>
                 <div style={{overflowY: 'auto' }}>
                     {album.faixas.map((faixa,index) => index<5 && (
                         <Popover.Content>
                             <Card>
-                                <ListGroup variant="flush">
+                                <ListGroup>
                                     <ListGroup.Item>
                                         <h6>{faixa.name}</h6>
                                         <div>
@@ -58,7 +58,7 @@ export default function ResultadosAlbum ({album}){
             <img src={album.albumImg} alt="album" style={{height:'64px', width:'64px'}}/>
             <OverlayTrigger
                 trigger="click"
-                placement='right-start'
+                placement='auto-start'
                 overlay={popover}
             > 
                 <div className="m-2" style={{cursor: 'pointer'}} >
