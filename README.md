@@ -10,6 +10,7 @@ Inicie o cmd e execute os comandos:
 - `npm start`
 ### Iniciando servidor
 Em outro cmd:
+- `cd desktop`
 - `cd client-spotify`
 - `cd server`
 - `npm run devStart`
