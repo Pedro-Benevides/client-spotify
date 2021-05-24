@@ -2,12 +2,14 @@
 Consumindo API do Spotify para buscar álbums e as faixas neles
 
 ### Iniciando Client
+Inicie o cmd e execute os comandos:
+- `cd desktop`
 - `git clone https://github.com/PedroVictor197/client-spotify.git`
 - `cd client-spotify`
 - `npm i`
 - `npm start`
 ### Iniciando servidor
-Em outro cmd faça:
+Em outro cmd:
 - `cd client-spotify`
 - `cd server`
 - `npm run devStart`
