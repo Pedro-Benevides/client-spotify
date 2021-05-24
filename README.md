@@ -10,9 +10,7 @@ Inicie o cmd e execute os comandos:
 - `npm start`
 ### Iniciando servidor
 Em outro cmd:
-- `cd desktop`
-- `cd client-spotify`
-- `cd server`
+- `cd desktop/client-spotify/server`
 - `npm run devStart`
 
 Se o seu navegador não abrir automaticamente va até `http://localhost:3000`
