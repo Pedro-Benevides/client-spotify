@@ -3,7 +3,7 @@ import {Container, Form, ListGroup, Navbar } from 'react-bootstrap';
 import useAut from './useAut'
 import SpotifyWebApi from 'spotify-web-api-node'
 import ResultadoAlbum from './ResultadoAlbum'
-import Top_tracks from './Top_tracks'
+import Toptracks from './Toptracks'
 
 
 const spotifyApi = new SpotifyWebApi({
@@ -108,7 +108,7 @@ export default function Dashboard({ code }) {
             <div className="flex-grow-1 my-2" style={{ overflowY: 'auto' }}>
                 <h5 className="mt-3">Tocadas recentemente</h5>
                 {top.map(tracks => (
-                    <Top_tracks tracks={tracks}
+                    <Toptracks tracks={tracks}
                     key={tracks.spotify}/>
                 ))}
             </div>
